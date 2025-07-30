@@ -1,0 +1,140 @@
+html {
+  scroll-padding-top: 70px;
+}
+
+body {
+    padding-top: 70px;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p, a, li {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #748DAE;
+}
+
+.nav-link {
+    color: #748DAE;
+}
+
+.nav {
+    --bs-nav-link-hover-color: #9ECAD6;
+}
+
+.white-bg {
+    background-color: white;
+    color: #748DAE;
+}
+
+.blue-bg {
+    background-image: url(./assets/images/radial-bg.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#intro {
+    background-image: url(./assets/images/hero.png);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.profile-img {
+    width: 300px;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.project-covers {
+    object-fit: cover;
+    height: 200px;
+}
+
+.project-names {
+    color:#748DAE
+}
+
+#contact-me {
+    text-align: center;
+}
+
+.btn-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: #748DAE;
+    --bs-btn-bg: white;
+    --bs-btn-border-color: white;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #748DAE;
+    --bs-btn-hover-border-color: #748DAE;
+}
+
+.btn-secondary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: white;
+    --bs-btn-bg: #748DAE;
+    --bs-btn-border-color: #748DAE;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #6b85a7;
+    --bs-btn-hover-border-color: #6b85a7;
+}
+
+#footer {
+    text-align: center;
+}
+
+.footer-link {
+    color: #748DAE;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #9ECAD6;
+}
